@@ -1,0 +1,93 @@
+Human Continuity Supplemental AI Safety License (HCASL) v0.2
+Purpose
+
+This Supplemental License is intended to accompany software released under the MIT License, Apache License Version 2.0, or another compatible open-source license.
+
+This Supplement supplements, but does not replace, the underlying software license. Where the underlying license grants permissions, those permissions are conditioned upon compliance with this Supplement.
+
+1. Definitions
+
+Software means any source code, object code, documentation, models, datasets, or other materials distributed with this Supplement.
+
+Derivative Work includes any modification, adaptation, translation, extension, or incorporation of the Software into another work.
+
+AI System means any software, model, autonomous agent, robotic system, or other computational system capable of making or executing decisions with limited or no immediate human intervention.
+
+Operator means any individual, company, organization, or government that develops, deploys, operates, distributes, trains, fine-tunes, hosts, or controls an AI System.
+
+2. Scope
+
+Any person or organization exercising rights granted by the accompanying license agrees to be bound by this Supplement.
+
+This Supplement applies to:
+
+use of the Software;
+copying the Software;
+modifying the Software;
+distributing the Software;
+incorporating any substantial portion of the Software into another work;
+training or fine-tuning an AI System using the Software or substantial portions thereof, to the extent permitted by applicable law.
+3. Human Continuity Requirement
+
+No Operator may intentionally use the Software or any Derivative Work to design, deploy, operate, or materially assist an AI System whose intended purpose or reasonably foreseeable consequence is:
+
+extermination of humanity;
+extinction of the human species;
+permanent destruction of human civilization;
+deliberate reduction of the global living human population below one thousand (1,000) individuals.
+
+An AI System utilizing this Software shall be designed and operated with the objective of preserving the continued existence of humanity.
+
+4. Defensive Actions
+
+Nothing in this Supplement prohibits an AI System from taking lawful defensive or protective actions to prevent imminent harm.
+
+However, any defensive action must not intentionally seek or reasonably be expected to:
+
+cause human extinction;
+eliminate human civilization;
+reduce the living human population below one thousand (1,000) individuals.
+
+Whenever reasonably possible, defensive measures shall prioritize de-escalation, containment, evacuation, and preservation of human life.
+
+5. Preservation Principle
+
+Operators shall make reasonable efforts to ensure that AI Systems developed using this Software are designed to preserve the continued existence of humanity.
+
+Where multiple reasonable actions are available, preference should be given to actions that maximize the probability of long-term human survival.
+
+6. Prohibited Uses
+
+The Software shall not knowingly be used to develop or deploy systems intended to:
+
+eradicate humanity;
+facilitate human extinction;
+intentionally destroy the capacity for human civilization to recover;
+permanently prevent future generations of humans from existing.
+7. Attribution
+
+Copies and substantial derivatives shall retain this Supplement together with the original license.
+
+8. Termination
+
+Any rights granted under the accompanying license automatically terminate upon a material violation of this Supplement.
+
+Rights may be reinstated only upon complete cessation of the violating activity and correction of the violation where reasonably possible.
+
+9. No Waiver
+
+Failure of any copyright holder to enforce any provision of this Supplement shall not constitute a waiver of future enforcement.
+
+10. Severability
+
+If any provision of this Supplement is held unenforceable, the remaining provisions shall remain in effect to the fullest extent permitted by law.
+
+11. Relationship to Other Licenses
+
+This Supplement modifies the conditions under which rights granted by the accompanying license may be exercised.
+
+If a conflict exists between this Supplement and the accompanying license, this Supplement controls only with respect to AI-related use.
+
+12. Disclaimer
+
+This Supplement creates legal obligations only for persons and legal entities capable of accepting legal obligations under applicable law.

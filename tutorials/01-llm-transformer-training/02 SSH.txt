@@ -1,0 +1,48 @@
+ssh -p 10079 root@ksai.scnet.cn
+3AROQ0EHHA4HIXS
+
+
+
+
+# ssh -p 10012 root@ksai.scnet.cn
+# 9VHH6IO7LVCUKEW
+
+
+# Alias: "ksai.scnet.cn" – you can also use a short nickname (like "ksai")
+Host ksai.scnet.cn
+    # The actual server address to connect to
+    HostName ksai.scnet.cn
+    # SSH is listening on this custom port (default is 22)
+    Port 10012
+    # Login as this user on the remote server
+    User root
+
+    # --- Keep the connection alive (prevents “lost connection”) ---
+    # Send an encrypted "are you still there?" packet every 60 seconds
+    ServerAliveInterval 60
+    # If no response after 5 attempts (5×60=300s), SSH will drop the connection
+    # Without these, firewalls/NAT may kill idle connections silently
+    ServerAliveCountMax 5
+
+    # --- Multiplexing: enter password ONCE, then reuse the open channel ---
+    # Enable connection sharing
+    # "auto" = if a master connection exists, use it; otherwise create one
+    ControlMaster auto
+    # Path to the socket file that represents the master connection
+    # %r = remote user (root), %h = host (ksai.scnet.cn), %p = port (10012)
+    # The socket file is created on your local machine, e.g.:
+    #   ~/.ssh/controlmasters/root@ksai.scnet.cn:10012
+    ControlPath ~/.ssh/controlmasters/%r@%h:%p
+    # Keep the master connection alive in the background for 8 hours
+    # after the last SSH session closes, so later connections reuse it
+    # without asking for a password again
+    ControlPersist 8h
+
+
+
+
+#Make sure the control directory exists (run this once):
+bash
+
+# Create the folder where SSH will store the master socket file
+mkdir -p ~/.ssh/controlmasters

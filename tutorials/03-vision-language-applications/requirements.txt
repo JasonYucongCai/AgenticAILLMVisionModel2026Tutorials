@@ -1,0 +1,14 @@
+# Series 03 - Vision-Language & Specific Applications
+
+torch>=2.1
+torchvision>=0.16
+transformers>=4.40
+huggingface_hub>=0.23
+pandas>=2.0
+pillow>=10.0
+tqdm>=4.66
+matplotlib>=3.8
+numpy>=1.26
+openai>=1.40
+python-dotenv>=1.0
+gradio>=4.0
