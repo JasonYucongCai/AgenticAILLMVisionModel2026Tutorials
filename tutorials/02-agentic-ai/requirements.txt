@@ -1,8 +1,0 @@
-# Series 02 - Agentic AI
-
-openai>=1.40
-openai-agents>=0.0.6
-python-dotenv>=1.0
-requests>=2.31
-
-# pydantic is pulled in automatically by openai-agents.
