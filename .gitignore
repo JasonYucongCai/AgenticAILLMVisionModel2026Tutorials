@@ -1,0 +1,55 @@
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# ============================================================
+# Environment / secrets (never commit API keys)
+# ============================================================
+.env
+.env.*
+!.env.example
+
+# ============================================================
+# Notebook artifacts
+# ============================================================
+.ipynb_checkpoints/
+
+# ============================================================
+# Large data / model artifacts (downloaded by the notebooks)
+# ============================================================
+models/
+results/
+data/
+*.pth
+*.pt
+*.safetensors
+*.onnx
+*.bin
+
+# ============================================================
+# Python helper scripts (commented out of version control)
+# ============================================================
+# Root-level helpers
+/download_clip_model.py
+/verify_clip_download.py
+
+# Series 01 — LLM Transformer Training helpers
+/tutorials/01-llm-transformer-training/download_model_modelscope.py
+/tutorials/01-llm-transformer-training/download_model_modelscope02.py
+/tutorials/01-llm-transformer-training/run_fsdp_training.py
+/tutorials/01-llm-transformer-training/train_deepseek7B_finetuned.py
+/tutorials/01-llm-transformer-training/verify_deepseek7B_setup.py
+/tutorials/01-llm-transformer-training/fsdp_smoke_test.py
+
+# Assets helpers
+/assets/_cuda_test.py
+/assets/previous-resources/_inspect.py
